@@ -4,7 +4,7 @@
 
 Create service that connects to an MQTT broker, subscribes to specific topics, aggregates data from those topics, and processes it based on user-defined configurations.
 
-2. Key Components:
+Key Components:
 
 MQTT Client. (such as: https://github.com/dotnet/MQTTnet)
 
