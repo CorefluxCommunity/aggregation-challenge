@@ -19,15 +19,14 @@ Configuration: Allow the user to define configurations in a file and/or other me
 Data Aggregation: Implement different aggregation strategies, like:
 
 - Collecting and averaging numeric data from specific topics.
-- Storing the latest message from each topic.
-- Aggregating messages over time or based on specific triggers.
+- Create a way of configuring recepies (trough a file, mqtt, w/e)
 
 Service Behavior: The service can run indefinitely.
 
 Output: Define the output method for aggregated data. It can be:
-- Pushed back to an MQTT topic.
-- Stored in database
-- Printed to the console.
+- Pushed back to an MQTT topic. 
+- Stored in database (nice to have)
+- Printed to the console (meh)
 - etc.
 
 #### Deliverables
@@ -45,6 +44,14 @@ Output: Define the output method for aggregated data. It can be:
 #### Submission
 Please submit your solution in a GitHub repository with clear instructions on how to set up and run the program. Include any additional documentation or resources that would assist in evaluating your submission.
 
+#### Tools and repos
+Mqtt-Explorer (nice to have)
+https://github.com/CorefluxCommunity/CorefluxMQTTcSharpAPI
+https://github.com/dotnet/MQTTnet?tab=readme-ov-file
 ---
+
+#### Broker details
+Broker: iot.coreflux.cloud
+Port: 1883
 
 Good luck! We are excited to see your innovative approaches and solutions!
